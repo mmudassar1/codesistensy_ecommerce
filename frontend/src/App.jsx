@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     // Check if user is authenticated when the app loads
     checkAuth();
-  }, [checkAuth]);
+  }, []);
   
   useEffect(() => {
     getCartItems();
